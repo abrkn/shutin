@@ -1,0 +1,19 @@
+{
+  "name": "shutin",
+  "version": "1.0.0",
+  "description": "Node.js shutdown helpers",
+  "scripts": {
+    "test": "echo TODO"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/abrkn/shutin.git"
+  },
+  "keywords": [],
+  "author": "Andreas Brekken <andreas@brekken.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/abrkn/shutin/issues"
+  },
+  "homepage": "https://github.com/abrkn/shutin#readme"
+}
