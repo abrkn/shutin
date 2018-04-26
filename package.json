@@ -1,6 +1,6 @@
 {
   "name": "shutin",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Node.js shutdown helpers",
   "scripts": {
     "test": "echo TODO"
