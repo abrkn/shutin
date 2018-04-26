@@ -15,5 +15,11 @@
   "bugs": {
     "url": "https://github.com/abrkn/shutin/issues"
   },
-  "homepage": "https://github.com/abrkn/shutin#readme"
+  "homepage": "https://github.com/abrkn/shutin#readme",
+  "dependencies": {
+    "delay": "2.0.0"
+  },
+  "devDependencies": {
+    "nodemon": "1.17.3"
+  }
 }
