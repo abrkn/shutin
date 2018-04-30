@@ -1,3 +1,4 @@
+const assert = require('assert');
 const delay = require('delay');
 
 const SHUTDOWN = Symbol();
@@ -12,6 +13,8 @@ const shutdown = new Promise(resolve => {
 });
 
 const delayUnlessShutdown = async interval => {
+  assert(Number.isFinite(interval));
+
   const winner = await Promise.race([shutdown, delay(interval)]);
 
   return winner === SHUTDOWN;
