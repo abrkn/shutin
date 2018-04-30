@@ -22,5 +22,5 @@ const delayUnlessShutdown = async interval => {
 
 Object.assign(exports, {
   shutdown,
-  delayUnlessShutdown
+  delayUnlessShutdown,
 });
