@@ -1,11 +1,13 @@
 const assert = require('assert');
 const delay = require('delay');
+const debug = require('debug')('shutin');
 
 const SHUTDOWN = Symbol();
 
 const shutdown = new Promise(resolve => {
   ['SIGTERM', 'SIGINT'].forEach(signal =>
     process.on(signal, () => {
+      debug(`Received ${signal} signal`);
       shutdown.requested = true;
       resolve(SHUTDOWN);
     })

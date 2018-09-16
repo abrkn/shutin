@@ -17,6 +17,7 @@
   },
   "homepage": "https://github.com/abrkn/shutin#readme",
   "dependencies": {
+    "debug": "4.0.1",
     "delay": "2.0.0"
   },
   "devDependencies": {
